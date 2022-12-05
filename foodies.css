@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+    color: orange;
+    padding: 25px;
+}
+nav{
+    background-color: orange;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    color:black;
+    display: inline-block;
+    padding: 22px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in;
+    font-size: 20px;
+}
+nav ul a:hover{
+    background-color:red;
+    color: white;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.06);
+}
+.item h4{
+    padding: 7px;
+    text-align: center;
+}
+.item button{
+    padding: 6px 32px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+.item button:hover{
+    transform: scale(1.08);
+}
+
+
+.img{
+  width: 100px;
+  height: 100px;
+  color: orange;
+}
+.body{
+  text-align: center;
+}
+
+
+
+.footer .credit{
+    padding: 10px;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 25px;
+    color:var(--light-color);
+    border-top: .1rem solid rgb(121, 113, 113);
+}
+
+.footer .credit span{
+    color:var(--green);
+}
+
